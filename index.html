@@ -8,16 +8,16 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     
-<script src = "sdk/blippar-webar-sdk-v1.6.1/webar-sdk/webar-sdk-v1.6.1.min.js?license-key=6c4edad5-4b70-4caa-b939-68103753fcee"
+<script src = blippar-webar-sdk.....
 webar-mode="marker-tracking"
-static-camera = "false"
+static-camera = "true"
 auto-start="false"
 auto-init="false"
 render-scene-on-desktop= "false"
-show-qr-card-on-desktop="false"
+show-qr-card-on-desktop= "false"
 
-enable-tracking-on-desktop="false"
-enable-mirroring-on-desktop="false"
+enable-tracking-on-desktop= "false"
+enable-mirroring-on-desktop= "false"
 auto-marker-detection ="true"
 show-guide-animation-url=""
 rendering-engine="unity"
@@ -86,7 +86,7 @@ scan-btn-progress-circle-cx-coordinate="50%"
 scan-btn-progress-circle-cy-coordinate="50%"
 scan-btn-progress-circle-radius="35"
 scan-btn-progress-circle-style="fill: none; stroke: cyan; stroke-width: 6;"
-ios-camera-permission="true"
+ios-camera-permission= "false"
 auto-scan-instruction-idle-on-desktop="Reload to detect a marker"
 
 show-guide-view="true"></script>
@@ -100,14 +100,14 @@ show-guide-view="true"></script>
 
 var Yrotvalue = undefined;
 var UNITYINSTANCE = undefined;
-const cameraObjectName = "webarCamera";
-const stageObjectName = "1f08af65-a566-417c-b468-0628b97f3aa8 ";
+const cameraObjectName = "";
+const stageObjectName = "";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/WebAR-My project (14).loader.js";
+      const loaderUrl = buildUrl + "/Build.loader.js";
       const config = {
-        dataUrl: buildUrl + "/WebAR-My project (14).data.unityweb",
-        frameworkUrl: buildUrl + "/WebAR-My project (14).framework.js.unityweb",
-        codeUrl: buildUrl + "/WebAR-My project (14).wasm.unityweb",
+        dataUrl: buildUrl + "/Build.data.unityweb",
+        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/Build.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project (14)",
